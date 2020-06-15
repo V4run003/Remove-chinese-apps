@@ -65,19 +65,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                //dialog.cancel();
+                dialog.cancel();
             }
 
             @Override
             public void onAdFailedToLoad(int i) {
                 super.onAdFailedToLoad(i);
-                //dialog.cancel();
+                dialog.cancel();
             }
 
             @Override
             public void onAdLoaded() {
                 super.onAdLoaded();
-                //dialog.cancel();
+                dialog.cancel();
                 interstitialAd.show();
             }
         });
