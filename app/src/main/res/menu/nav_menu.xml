@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/china_app"
+        android:icon="@drawable/ic_baseline_flag_24"
+        android:title="@string/china_apps" />
+    <item
+        android:id="@+id/all_apps"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="All Apps"
+        tools:ignore="HardcodedText" />
+</menu>
